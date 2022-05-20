@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CEONE</title>
+    <meta name="keywords" content="English" />
+    <meta name="template" content="home-page-template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Exo:wght@600&display=swap" rel="stylesheet">
+    <!-- External Css -->
+    <link rel="stylesheet" href="../assets/css/solution.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/solution-service.css">
+
+    <link rel="stylesheet" href="../assets/vendor/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/vendor/fontawesome-free-5.15.4-web/css/solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../assets/vendor/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+    <script src="../assets/vendor/fontawesome-free-5.15.4-web/js/solid.js"></script>
+    <!-- External Css -->
+</head>
+<body>
+
+    <header style="width:100%;position:fixed;z-index: 999;">
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html">Home</a>
+            <!-- <a href="./about_us.html" class="active">About Us</a> -->
+            <div class="dropdowndata">
+                <button class="dropbtn">About Us 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../about_us.html">About Ceone</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="../leadership_teams.html">Leadership Team</a>
+                  </div>
+            </div>
+            
+            <div class="dropdowndata">
+              <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">White Papers</a>
+                <a href="#">Brouchers</a>
+                <a href="#">Case Studies</a>
+                <a href="#">Videos</a>
+              </div>
+            </div> 
+            <a href="../career.html">Careers</a>
+            <a href="../contact_us.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">
+               <img src="../assets/Images/logo.png" style="width:200px;">
+               <img src="../assets/Images/iso-image.png" style="width: 88px;">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="../solution.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./Engineering/CinDraw.html">CinDraw</a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="./DigitalTransformation.html">Digital Transformation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./Operations.html">Operations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./Performance.html">Performance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./Engineering.html">Engineering</a>
+                    
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../services.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../services/FeedEngineering.html">Feed Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../services/Detailed&Design.html">Detailed & Design Engg</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../services/AsBuiltEngineering.html">As-Built Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../services/Coversion.html">Conversion</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Industries
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../industries/Oil&Gas.html">Oil & Gas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Chemical.html">Chemical</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Cement.html">Cement</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Energy&Utility.html">Energy and Utility</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Manufacturing.html">Manufacturing</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+    <!-- <div style="background-image: url('../assets/Images/98866060-abstract-technology-geometric-polygonal-mesh-lines-background.jpg');background-repeat: no-repeat;background-size:cover;height: 70vh;">
+            <div>
+                    <div class="Solutiontext11" style="font-family: sans-serif;"><p>Managing assets that prioritizes business objectives</p></div>
+            </div>
+    </div> -->
+    
+
+    <div style="background-image: url('../assets/Images/sky.jpg');background-repeat: no-repeat;background-size:cover;height: 80vh;">
+        <div class="Solutiontext11 text-light" style="font-family: sans-serif;"><p>Managing assets that prioritizes business objectives</p></div>
+    </div>
+
+    <section class=" mt-5">
+      <div class="container">
+          <div class="row justify-content-center">
+             <div class="col-md-12 m-5"style="font-family: sans-serif;"> <!--data-aos="fade-up" data-aos-duration="3000">-->
+                 <h2 style="text-align: center;">Ability to have optimal Asset Reliability, Availability and Performance is essential</h2><br>
+                 <div class="card-text">
+                  A diverse set of complex assets are regularly used in the Process Industry. Managing these assets by continuously tracking performance health, even remotely, has been a constant challenge. 
+                  The key stakeholders do understand that such real-time health and performance insights can be used to influence decisions and actions that will drive efficiency and improve competitive 
+                  advantage. 
+                  <p>Reactive and break-fix maintenance of critical production assets often leads to high physical and financial risk. The preventive maintenance approach using the Asset Performance Management, can be used to generate 
+                      meaningful metrics using the continuous inputs of monitored asset performance data. Thus APM and its functionalities influences - supply, operations and almost all other business 
+                      functions that finally translates into business value for the end customer.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="mt-5" style="background-color: rgb(166, 205, 245);">
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card-text">
+                    <div class="p-5"style="font-family: sans-serif;">
+                        <h1>Ceone’s solutions aim at optimizing the performance of the assets</h1>
+                        <div>
+                            <p>Ceone, with its in depth understanding on the functionalities of various assets within the process industry, has built solutions for connecting 
+                                the disparate data sources and providing actionable insights. </p>  
+                            <p>Our APM solutions have the capabilities of data capture, integration, visualization and analytics integrated together, 
+                                with an aim to improve the reliability and availability of physical assets.The solution also aims at helping in better inspection management and maintenance, optimizing repair and operations inventories, and prioritizing replacement versus repair decisions.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="img-margin">
+                    <img src="../assets/Images/man-about-launch-rocketship-advertising.webp">
+                </div>
+            </div>
+            
+        </div>
+    </div> -->
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+          <div class="col-md-6 m-auto"><!--data-aos="fade-up-left" data-aos-duration="3000">-->
+            <div class="p-5"style="font-family: sans-serif;">
+              <h2>Ceone’s solutions aim at optimizing the performance of the assets</h2><br>
+              <div>
+                  <p>Ceone, with its in depth understanding on the functionalities of various assets within the process industry, has built solutions for connecting 
+                      the disparate data sources and providing actionable insights. </p>  
+                  <p>Our APM solutions have the capabilities of data capture, integration, visualization and analytics integrated together, 
+                      with an aim to improve the reliability and availability of physical assets.The solution also aims at helping in better inspection management and maintenance, optimizing repair and operations inventories, and prioritizing replacement versus repair decisions.</p>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-6 m-auto">
+              <div class="img-margin"><img src="../assets/Images/istockphoto-1090245970-170667a.jpg" class="img-fluid"></div>
+          </div>    
+      </div>
+  </div>
+</section><br>
+
+<section class="mt-5" style="background-color: rgb(66, 90, 180);color:#fff;">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-12 m-auto"style="font-family: sans-serif;">
+              <div class="pt-5 pb-1">
+                  <h2 style="text-align: center;">Features of our APM Solutions</h2>
+              </div>  
+          </div>
+      </div>
+      <div class="row justify-content-center" style="background-color: rgb(66, 90, 180);color:#fff;">
+          <div class="col-md-6 m-auto"style="font-family: sans-serif;">
+              <div class="card-text p-5">
+                  <p><b>REMOTE MONITORING</b>: Ability to remotely monitor critical assets and operations in a near.</p>
+                  <p><b>PREDICTIVE MAINTENANCE</b>: Conduct proactive maintenance using IOT & AI technology. Reduce unplanned downtime and increase availability and reliability.</p>
+                  <p><b>HIRERARCHIAL VIEW</b>: View the related assets hierarchically and get a better picture of the root cause analysis.</p>
+              </div> 
+          </div>
+          <div class="col-md-6 m-auto"style="font-family: sans-serif;">
+              <div class="card-text p-5">
+                 <p><b>OPTIMISED WORKFLOW</b>: Ability to remotely monitor critical assets and operations in a near real-time mode.</p>
+                 <p><b>CLOUD BASED</b>: Cloud adapters simplify support of different protocols without any burden on sensor or gateway providers.</p>
+                 <p><b>PLUG -N- PLAY</b>: Plug-and-Play solution that supports multi-vendor protocols and easily migrates to modern digital infrastructure.</p>
+              </div>
+          </div>
+          
+      </div>
+      </div>
+</section>
+<!-- <section>
+    <div class="container">
+      <div class="row justify-content-center">
+          
+            <div class="col-md-12 m-auto"style="font-family: sans-serif;">
+                <div class="pt-5 pb-1">
+             <h2><br>Benefits</h2>
+          </div>     
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-md-12 m-auto">
+             <div class="card-text p-5"style="font-family: sans-serif;">
+                  <li><b>Optimize Productivity</b>: Improve workforce productivity by prioritizing maintenance based on criticality and cost rather than schedule-based maintenance practices.</li>
+                  <li><b>Lower total cost of ownership</b>: Reduce TCO delivered via a Software-as-a-Service (SaaS) model, providing flexibility and access to business insights. </li>
+                  <li><b>Faster time-to-value</b>: A standardized way to connect machines, data, and people with a consistent interface for superior user experience, dynamic scalability, and extendibility to grow functionality as business needs evolve.</li>
+                  <li><b>Optimize asset health</b>: Transform the approach by driving actions based on the current health of assets.</li>
+                  <li><b>Reduces often unnecessary routine preventive maintenance</b> which also introduces risk and decreases availability.</li>
+             </div>
+          </div>     
+      </div>
+  </div>
+</section> -->
+
+<section>
+    <div class="" style="padding: 43px 33px;" >
+        <div class="col-md-12 m-auto">
+           <h2>Benefits</h2>
+           <div class="card-text p-5"style="font-family: sans-serif;">
+            <ul>
+                <li><b>Optimize Productivity</b>: Improve workforce productivity by prioritizing maintenance based on criticality and cost rather than schedule-based maintenance practices.</li>
+                <li><b>Lower total cost of ownership</b>: Reduce TCO delivered via a Software-as-a-Service (SaaS) model, providing flexibility and access to business insights. </li>
+                <li><b>Faster time-to-value</b>: A standardized way to connect machines, data, and people with a consistent interface for superior user experience, dynamic scalability, and extendibility to grow functionality as business needs evolve.</li>
+                <li><b>Optimize asset health</b>: Transform the approach by driving actions based on the current health of assets.</li>
+                <li><b>Reduces often unnecessary routine preventive maintenance</b> which also introduces risk and decreases availability.</li>
+            </ul>
+               
+           </div>
+        </div>     
+    </div>
+</section>
+
+
+<section class="mt-5" style="background-color:rgb(166, 205, 245);">
+  <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-md-12 m-5"><!--data-aos="Zoom-in" data-aos-duration="3000">-->
+             <div class="content"style="font-family: sans-serif;">
+              <h4>MAXIMIZE EFFICIENCY ACROSS ENGINEERING, OPERATIONS AND MAINTENANCE WITH ASSET PERFORMANCE MANAGEMENT</h4>
+              <!-- <a href="../contact_us.html"><button class="btn btn-primary">LET'S TALK</button></a> -->
+              <button class="btn btn-primary" id="show-login">LET'S TALK</button>
+              
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="popup92">
+    <div class="close-btn">
+     &times;
+     </div>
+<div class="form">
+    <h5>Fill this form to contact us, if you have any futher questions.</h5>
+    <div class="row">
+        <div class="col">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" name="fname" id="fname" class="form-control">
+    </div>
+        <div class="col">
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" name="lname" id="lname" class="form-control">
+    </div>
+    </div>
+    <div class="form-group">
+            <label for="email"><b>Email address</b></label>
+            <input type="email" name="email" class="form-control" placeholder="Enter email" id="email">
+    </div>
+    <div class="form-group">
+            <label for="message"><b>Message</b></label>
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Type the message you wish to send"></textarea>
+    </div>
+    <div>
+            I hereby certify that the information above is true and accurate.
+    </div><br>
+    <div class="form-group">
+            <input type="submit" class="btn justify-content-end" style="background-color: rgb(60, 91, 217);color: #fff;" onclick="onFormSubmit()">
+    </div>
+
+    </div>
+    </div>
+
+    <script>
+        document.querySelector("#show-login").addEventListener("click",function(){
+            document.querySelector(".popup92").classList.add("active");
+        });
+        
+        document.querySelector(".popup92 .close-btn").addEventListener("click",function(){
+            document.querySelector(".popup92").classList.remove("active");
+        });
+    </script>
+</section>
+<section class="mt-5">
+  <div class="container" >
+      <div class="row">
+          <div class="col-md-6">
+              <a href="./Operations.html">
+              <div class="img-margin">
+                  <img src="../assets/Images/images (1).jfif" class="img-fluid m-auto" style="width:100%"> 
+                  <div class="card p-5"style="font-family: sans-serif;">
+                      <div class="card-text">
+                          <h4>Improve Asset Health by Regular Monitoring</h4>
+                          <div>
+                              Utilise smart technologies for predictive maintenance and timely actions
+                          </div><br>
+                          <button class="btn btn-primary">Learn More</button>
+                      </div>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-md-6">
+              <a href="./Engineering/DQMS.html">
+              <div class="img-margin">
+                  <img src="../assets/Images/images (2).jfif" class="img-fluid m-auto" style="width:100%"> 
+                  <div class="card p-5">
+                      <div class="card-text"style="font-family: sans-serif;">
+                          <h4>Increase Asset Data Reliability</h4>
+                         <div> Validated engineering data to manage upto-date asset inventory </div><br><br><br><br>
+                          <button class="btn btn-primary">Learn More</button>
+                      </div><br>
+                  </div>
+              </div>
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="container" >
+      <div class="row">
+          <div class="col-md-6">
+              <a href="./DigitalTransformation/Analytics.html">
+              <div class="img-margin">
+                  <img src="../assets/Images/images (3).jfif" class="img-fluid m-auto" style="width:100%"> 
+                  <div class="card p-5">
+                      <div class="card-text"style="font-family: sans-serif;">
+                          <h4>Enables Predictive Analytics using APM</h4>
+                          <div>Derive insights to make quick and confident decisions </div><br>
+                          <button class="btn btn-primary">Learn More</button>
+                      </div>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="col-md-6 m-auto">
+              <a href="./DigitalTransformation/DigitalTwin.html">
+                  <div class="img-margin">
+                      <img src="../assets/Images/images (4).jfif" class="img-fluid m-auto" style="width:100%">
+                      <div class="card p-5"style="font-family: sans-serif;">
+                          <div class="card-text">
+                              <h4>Digital APM using digital twin</h4>
+                              <div>Connecting disparate systems and promoting traceability</div><br>
+                              <button class="btn btn-primary">Learn More</button>
+                          </div> <br>
+                      </div>
+                  </div> 
+              </a>  
+          </div>
+      </div>
+  </div>
+</section><br><br>
+
+<footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="../assets/Images/logo (2).png" style="width:150px;"  >
+            </div>
+            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about_us.html">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="../career.html">Careers</a></li>
+                        <li><a href="../contact_us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+
+</body>
+</html>

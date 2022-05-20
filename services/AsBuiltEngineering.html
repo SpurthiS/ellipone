@@ -1,0 +1,596 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CEONE</title>
+    <meta name="keywords" content="English" />
+    <meta name="template" content="home-page-template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Exo:wght@600&display=swap" rel="stylesheet">
+    <!-- External Css -->
+    <link rel="stylesheet" href="../assets/css/solution.css">
+    <link rel="stylesheet" href="../assets/css/solution-service.css">
+
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/vendor/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/vendor/fontawesome-free-5.15.4-web/css/solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../assets/vendor/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+    <script src="../assets/vendor/fontawesome-free-5.15.4-web/js/solid.js"></script>
+    <!-- External Css -->
+</head>
+<body>
+    <header style="width:100%;position:fixed;z-index: 999;">
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html">Home</a>
+            <!-- <a href="./about_us.html" class="active">About Us</a> -->
+            <div class="dropdowndata">
+                <button class="dropbtn">About Us 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../about_us.html">About Ceone</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="../leadership_teams.html">Leadership Team</a>
+                  </div>
+            </div>
+            <div class="dropdowndata">
+              <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">White Papers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Brouchers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Case Studies</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Videos</a>
+              </div>
+            </div> 
+            <a href="../career.html">Careers</a>
+            <a href="../contact_us.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">
+               <img src="../assets/Images/logo.png" style="width:200px;">
+               <img src="../assets/Images/iso-image.png" style="width: 88px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="../solution.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../solutions/Engineering/CinDraw.html">CinDraw</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../solutions/DigitalTransformation.html">Digital Transformation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../solutions/Operations.html">Operations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../solutions/Performance.html">Performance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../solutions/Engineering.html">Engineering</a>
+                    
+                  </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="../services.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./FeedEngineering.html">Feed Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./Detailed&Design.html">Detailed & Design Engg</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./AsBuiltEngineering.html">As-Built Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./Coversion.html">Conversion</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Industries
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../industries/Oil&Gas.html">Oil & Gas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Chemical.html">Chemical</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Cement.html">Cement</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Energy&Utility.html">Energy and Utility</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../industries/Manufacturing.html">Manufacturing</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <!-- <div class="container-fluid"> -->
+   
+    <section>
+        <div style="background-image: url('../assets/Images/bk3.jpg');background-repeat: no-repeat;background-size:cover;height: 80vh;">
+            <div class="row"> 
+                <!-- <div>
+                <div  class="Solutiontext6 text-light" style="font-family: sans-serif;">As-Built services to manage <br>the plant asset and aide EPC project cycles.</div>
+                </div> -->
+
+
+                <div class="Solutiontext11 text-light" style="font-family: sans-serif;"><p>As-Built services to manage <br>the plant asset and aide EPC project cycles.</p></div>
+             </div>
+        </div>
+    </section>
+
+    <!--<section class="mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 m-auto" data-aos="fade-up-right" data-aos-duration="3000">
+                    <div class="img-margin text-center">
+                        <img src="../assets/Images/customer-service.png" alt="process" width="100%" height="100%">
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 m-auto" data-aos="fade-up-left" data-aos-duration="3000">
+                    <div class="img-margin text-left">
+                        <p style="color: darkblue;font-weight: normal;font-family: sans-serif;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices est id eros vulputate volutpat. 
+                            Phasellus volutpat pellentesque lacus eu sagittis. Pellentesque quis lacus massa. Curabitur viverra scelerisque nulla vel suscipit. 
+                            Vestibulum sollicitudin vestibulum nibh, eget faucibus lorem malesuada in. Cras commodo felis urna, nec aliquam sem efficitur sit amet.
+                            Aenean et molestie justo, sit amet interdum lorem. Nulla mattis tortor tortor, in tempus erat imperdiet vel. Mauris sem ipsum, pulvinar eu magna ut, 
+                            sollicitudin tristique ipsum. Curabitur auctor malesuada egestas.
+                        </p>
+                        <button class="btn" style="background-color: rgb(45, 45, 119);color: #fff;font-weight: bold;box-shadow:5px 10px rgb(94, 94, 126);">Watch Video</button>
+                        <button class="btn" style="background-color: #fafafa;color: rgb(60, 60, 148);font-weight: bold;box-shadow:5px 10px rgb(120, 120, 146);">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section class="mt-5"><!-- style="background-color: lightblue;">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-5">
+                    <h2 style="text-align: center;font-family: sans-serif;">Capturing changes to provide up-to-date, accurate documentation and improve decision making
+                    </h2>
+                    <p style="font-family: sans-serif;">Our As-Built service provides comprehensive coverage of all aspects and disciplines of the As-Built design application, including laser scanning, site survey development of dumb model (AutoCAD & Microstation) and intelligent models in SP3D,PDS, CADWorx, PDMS and Plant3D along with specifications and catalogues, 2D Drawings, ISOs, Tag data comparison and design assistance , P&ID verification for revamps and modification jobs involving tie-ins to the new designs.<br> <br>We use a combination of proprietary in-built automation, specialized expertise, and a well-organised, scalable technical team to set industry benchmarks for quality and schedule, while remaining highly cost competitive with alternatives.</p>
+                </div>
+            </div>
+        </div>  </section>
+<!-- 
+        <div style="background: rgb(36, 116, 176);">
+            <br>
+                <h2 style="text-align: center;font-family: sans-serif;color: #fff;">Key Services</h2>
+            <div class="container"style="padding: 3vh;">
+               <div class="column">
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">ACTIVITIES SUPPORTED: 
+                </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">Site survey,Laser scanning.</li>
+                <li class="text-left" style="font-family: sans-serif;">Site Verification.</li>
+                <li class="text-left" style="font-family: sans-serif;">Processing and Merging.</li>
+                <li class="text-left" style="font-family: sans-serif;">3D Cloud modelling.</li>
+                <li class="text-left" style="font-family: sans-serif;">3D intelligent Modelling.</li>
+               </div>
+               <div class="column">
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">USED FOR: 
+                </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">As-is documentation.</li>
+                <li class="text-left" style="font-family: sans-serif;">Revamp/ Relocation.</li>
+                <li class="text-left" style="font-family: sans-serif;">Retrofit, Decommissioning.</li>
+                <li class="text-left" style="font-family: sans-serif;">Asset Management.</li>
+                <br>
+                <br>
+                <br>
+               </div>
+               <div class="column">
+                <br>
+             <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">DELIVERABLES: 
+             </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">3D Intelligent Model</li>
+                <li class="text-left" style="font-family: sans-serif;">Intelligent P&IDs, Intelligent E&I deliverables (SPPID / SPI / SPEL / Aveva</li>
+                <li class="text-left" style="font-family: sans-serif;">2D Drawings extracted from 3D Model, such as GA drawings, ISOs, etc.</li>
+                <br>
+                <br>
+                <br>
+               </div>
+            </div>
+        </div> -->
+
+
+        <!-- <div style="background: rgb(36, 116, 176);">
+            <br>
+                <h2 style="text-align: center;font-family: sans-serif;color: #fff;">Key Services</h2>
+            <div class="container" style="padding: 3vh;text-align: -webkit-center;">
+               <div class="column">
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">ACTIVITIES SUPPORTED: 
+                </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">Site survey,Laser scanning.</li>
+                <li class="text-left" style="font-family: sans-serif;">Site Verification.</li>
+                <li class="text-left" style="font-family: sans-serif;">Processing and Merging.</li>
+                <li class="text-left" style="font-family: sans-serif;">3D Cloud modelling.</li>
+                <li class="text-left" style="font-family: sans-serif;">3D intelligent Modelling.</li>
+                <br>
+               </div>
+               <div class="column">
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">USED FOR: 
+                </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">As-is documentation.</li>
+                <li class="text-left" style="font-family: sans-serif;">Revamp/ Relocation.</li>
+                <li class="text-left" style="font-family: sans-serif;">Retrofit, Decommissioning.</li>
+                <li class="text-left" style="font-family: sans-serif;">Asset Management.</li>
+                <br>
+                <br>
+               </div>
+               <div class="column">
+                   <br>
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">DELIVERABLES: 
+                </h4><br>
+                <li class="text-left" style="font-family: sans-serif;">3D Intelligent Model</li>
+                <li class="text-left" style="font-family: sans-serif;">Intelligent P&IDs, Intelligent E&I deliverables (SPPID / SPI / SPEL / Aveva</li>
+                <li class="text-left" style="font-family: sans-serif;">2D Drawings extracted from 3D Model, such as GA drawings, ISOs, etc.</li>
+                <br>
+                <br>
+                
+               </div>
+            </div>
+        </div> -->
+
+
+        <div class="containertwo">
+
+            <div class="flextwo">
+                <div class="cardtwo"> 
+                    <h1>ACTIVITIES SUPPORTED:</h1>
+                    <ul>
+                        <li  style="font-family: sans-serif;">Site survey,Laser scanning.</li>
+                        <li  style="font-family: sans-serif;">Site Verification.</li>
+                        <li  style="font-family: sans-serif;">Processing and Merging.</li>
+                        <li  style="font-family: sans-serif;">3D Cloud modelling.</li>
+                        <li  style="font-family: sans-serif;">3D intelligent Modelling.</li>
+                    </ul>
+                </div>
+
+                <div class="cardtwo"> 
+                    <h1>USED FOR:</h1>
+                    <ul>
+                        <li  style="font-family: sans-serif;">As-is documentation.</li>
+                        <li  style="font-family: sans-serif;">Revamp/ Relocation.</li>
+                        <li  style="font-family: sans-serif;">Retrofit, Decommissioning.</li>
+                        <li  style="font-family: sans-serif;">Asset Management.</li>
+                    </ul>
+                </div>
+
+                <div class="cardtwo"> 
+                    <h1>DELIVERABLES:</h1>
+                    <ul>
+                        <li  style="font-family: sans-serif;">3D Intelligent Model</li>
+                        <li  style="font-family: sans-serif;">Intelligent P&IDs, Intelligent E&I deliverables (SPPID / SPI / SPEL / Aveva</li>
+                        <li  style="font-family: sans-serif;">2D Drawings extracted from 3D Model, such as GA drawings, ISOs, etc.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <br>
+    <br>
+        
+                    
+
+  
+    
+        <!-- <h2 style="text-align: center;font-family: sans-serif;">Key Services</h2> -->
+        <!--<section>
+            <div style="background-image: url('../assets/Images/fedbk.jpg');background-repeat: no-repeat;background-size:cover"><br><br>
+        <div style="text-align: center; font-family: sans-serif; font-size: 35px; color: #fff;">Key Services</div>
+
+
+        <div class="container12">
+            <div class="row12">
+                <div class="column">
+                    <div class="card p-4"style="font-family: sans-serif;">
+                        <div class="card-text">
+                    <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">ACTIVITIES SUPPORTED: 
+                    </h4><br>
+                    <li class="text-left" style="font-family: sans-serif;">Site survey,Laser scanning.</li>
+                    <li class="text-left" style="font-family: sans-serif;">Site Verification.</li>
+                    <li class="text-left" style="font-family: sans-serif;">Processing and Merging.</li>
+                    <li class="text-left" style="font-family: sans-serif;">3D Cloud modelling.</li>
+                    <li class="text-left" style="font-family: sans-serif;">3D intelligent Modelling.</li>
+                </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card p-4"style="font-family: sans-serif;">
+                        <div class="card-text">
+                    <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;font-weight: lighter;">USED FOR: 
+                    </h4><br>
+                    <li class="text-left" style="font-family: sans-serif;">As-is documentation.</li>
+                    <li class="text-left" style="font-family: sans-serif;">Revamp/ Relocation.</li>
+                    <li class="text-left" style="font-family: sans-serif;">Retrofit, Decommissioning.</li>
+                    <li class="text-left" style="font-family: sans-serif;">Asset Management.</li>
+                    <p>
+
+                    </p>
+                    <br>
+                    <br>
+                    
+                </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card p-4"style="font-family: sans-serif;">
+                        <div class="card-text">
+                    <h4 style="text-transform: uppercase;text-align: center; font-family: sans-serif;font-weight: lighter;">DELIVERABLES:
+                    </h4><br>
+                    <li class="text-left" style="font-family: sans-serif;">3D Intelligent Model</li>
+                    <li class="text-left" style="font-family: sans-serif;">Intelligent P&IDs, Intelligent E&I deliverables (SPPID / SPI / SPEL / Aveva</li>
+                    <li class="text-left" style="font-family: sans-serif;">2D Drawings extracted from 3D Model, such as GA drawings, ISOs, etc.</li>
+                    
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </section><br><br>-->
+        <section>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        
+                    <div class="carousel-inner text-dark">
+                        <div class="carousel-item active">
+                            <div class="row">
+        
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../assets/Images/as_build1.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="../assets/Images/as_build2.png">
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="../assets/Images/as_build3.png">
+                                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+    
+    <!--<h2 style="text-align: center;font-family: sans-serif;">Key Services</h2>-->
+    <!--<section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3" style="background-color: #759dd4">
+                    <a href="./industries.html">
+                    
+                        <img src="./assets/Images/icons8-engineer-60.png" style="width:100px;height:100px;margin:auto"/><br>
+                        <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;">ACTIVITIES SUPPORTED: 
+                        </h4><br>
+                        <div class="card-text p-4 " style="font-family: sans-serif;">
+                            <ul class="srv-list">
+                                <li>Site survey,Laser scanning.</li> 
+                                <li>Site Verification</li>
+                                <li>Processing and Merging.</li>
+                                 <li>3D Cloud modelling.</li>
+                                 <li>3D intelligent Modelling</li>
+                                </ul>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4">
+                        <div class="card p-3" style="background-color:#759dd4">
+                       
+                            <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;">USED FOR: 
+                            </h4><br>
+                            <div class="card-text p-4 " style="font-family: sans-serif;">
+                                <ul class="srv-list">
+                                    <li>As-is documentation</li>
+                                    <li>Revamp/ Relocation.</li>
+                                    <li>Retrofit, Decommissioning</li>
+                                    <li>Asset Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+                          
+    </section>-->
+                        
+    <!--<section>
+        <div style="padding: 5vh; " >
+            <div class="card" style="background-color: #759dd4">
+                <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;">DELIVERABLES:
+                </h4><br>
+                <div class="card-text p-4 " style="font-family: sans-serif;">
+                    <ul class="srv-list">
+                        <li>3D Intelligent Model</li>
+                        <li>Intelligent P&IDs, Intelligent E&I deliverables (SPPID / SPI / SPEL / Aveva)</li>
+                        <li>2D Drawings extracted from 3D Model, such as GA drawings, ISOs, etc.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    
+    <!--<section class="mt-5">
+        <div class="container" >
+            <div class="row justify-content-center">
+                <div class="col-md-6 m-auto">data-aos="fade-up-left" data-aos-duration="3000">
+                    <div class="img-margin text-left">
+                        <p style=" color: darkblue;font-weight: normal;font-family: sans-serif;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices est id eros vulputate volutpat. 
+                            Phasellus volutpat pellentesque lacus eu sagittis. Pellentesque quis lacus massa. Curabitur viverra scelerisque nulla vel suscipit. 
+                            Vestibulum sollicitudin vestibulum nibh, eget faucibus lorem malesuada in. Cras commodo felis urna, nec aliquam sem efficitur sit amet.
+                            Aenean et molestie justo, sit amet interdum lorem. Nulla mattis tortor tortor, in tempus erat imperdiet vel. Mauris sem ipsum, pulvinar eu magna ut, 
+                            sollicitudin tristique ipsum. Curabitur auctor malesuada egestas.
+                        </p>
+                        <button class="btn" style="background-color: rgb(63, 63, 158);color: #fff;font-weight: bold;box-shadow:5px 10px rgb(94, 94, 126);">Watch Video</button>
+                        <button class="btn" style="background-color: #fafafa;color: rgb(46, 46, 126);font-weight: bold;box-shadow:5px 10px rgb(120, 120, 146);">Read More</button>
+                    </div>
+                </div>
+                <div class="col-md-6 m-auto"><<data-aos="fade-up-right" data-aos-duration="3000">
+                    <div class="img-margin text-center">
+                        <img src="../assets/Images/data-management.png" alt="process" width="100%" height="100%">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!--<section style="background-image: url('../assets/Images/blue-bg2.jpg');background-repeat: no-repeat;background-size:cover;height: 40vh;">-->
+
+    <!-- <div class="row"> -->
+       <!---<div>
+        <div class="serviceText">-->
+<!--<p style="font-size: 25px;font-family: sans-serif;">“We were able to work with business and IT, look at a process,optimize .”</p>-->
+            <!--<button class="btn btn-warning text-light" style="display: flex;
+            justify-content: center;
+            margin: auto;"><b>Learn More</b></button>
+        </div>
+        </div>-->
+    <!-- </div> -->
+     
+  <!--  </section>-->
+    <!--<section class="mt-5">
+        <div class="container" >
+            <div class="row justify-content-center">
+                <div class="col-md-12 m-auto";">
+                    <div class="text-center";" >
+                        <h1>Services and robust Quality processes for multiple Industries/Sectors</h1>
+                    </div>    
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="p-5" style="display: flex;flex-direction: row">
+                        <Img src="../assets/Images/think.png" width="100" height="100">
+                        <div class="p-2">
+                            <h5><b>Vast Repository of Manufacturer & Vendor Solutions</b></h5>
+                            <div style="color: rgb(10, 32, 59);font-family: sans-serif;">With access to our partner database, Octopart, search and compare solutions from hundreds 
+                                of distributors and thousands of manufacturers. Optimize your product design by integrating 
+                                parts and components from manufacturers in the market.</div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 m-auto">
+                    <div class="p-5" style="display: flex;flex-direction: row">
+                        <Img src="../assets/Images/laptop.png" width="100" height="100">
+                        <div class="p-2">
+                            <h5><b>Vast Repository of Manufacturer & Vendor Solutions</b></h5>
+                            <div style="color: rgb(9, 28, 56);font-family: sans-serif;">With access to our partner database, Octopart, search and compare solutions from hundreds 
+                                of distributors and thousands of manufacturers. Optimize your product design by integrating 
+                                parts and components from manufacturers in the market.</div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+
+
+    <!--<section class="mt-5" style="background-color: lightblue;color: rgb(7, 7, 7);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 m-auto"><!-- data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="p-5 text-center">
+                        <h3 style="color: black;font-family: sans-serif;">
+                            <b style="font-family: sans-serif;">MAXIMIZE EFFICIENCY ACROSS ENGINEERING, OPERATIONS AND MAINTENANCE WITH REGULAR <br> AS-BUILT UPDATION</b>
+                        </h3>
+                        <a href="../contact_us.html"><button class="btn m-auto" style="display: flex;justify-content: center;margin-top: 20px;background-color: rgb(26, 103, 196);color:rgb(253, 244, 244);">LET'S TALK</button></a>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </section>
+
+    <section class="mt-5" style="background-color: lightblue;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-5">
+                    <h1 style="text-align: center;font-family: sans-serif;">WHY CEONE
+                    </h1>
+                    <p style="font-family: sans-serif;">Our services are provided by Industry experts and Technicians using the latest tools and platforms such as</p>
+                        <ul class="srv-list" style="font-family: sans-serif;">
+                        <li> Plant Suite including SP3D, SPRD, SPI, SPPID, SPF</li>
+                        <li> Design System (PDS)</li>
+                        <li>Plant Design Management System (PDMS)</li>
+                        <li>CADWorx</li>
+                        <li>AutoDesk Plant3D</li>
+                        </ul>
+                       <p style="font-family: sans-serif;"> Out intelligent, rule-based 3D environment and services enables faster, silo-free plant design and engineering and better collaboration.<br> Using different plant modeling software from different vendors, we provide consistent 2D/3D integration between process engineering and detailed engineering disciplines.<br>
+                         
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto">
+                    <img src="../assets/Images/logo (2).png" style="width:150px;"  >
+                </div>
+                <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                    <nav class="nav-footer">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about_us.html">About Us</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="../career.html">Careers</a></li>
+                            <li><a href="../contact_us.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    </body>
+    </html>

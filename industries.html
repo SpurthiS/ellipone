@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CEONE</title>
+    <meta name="keywords" content="English" />
+    <meta name="template" content="home-page-template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Exo:wght@600&display=swap" rel="stylesheet">
+    <!-- External Css -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/vendor/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/vendor/fontawesome-free-5.15.4-web/css/solid.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="./assets/vendor/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+   <script src="./assets/vendor/fontawesome-free-5.15.4-web/js/solid.js"></script>
+    <!-- External Css -->
+</head>
+<body>
+    <header style="width:100%;position:fixed;z-index: 999;">
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <a href="./about_us.html" class="active">About Us</a>
+            <div class="dropdowndata">
+              <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">White Papers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Brouchers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Case Studies</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Videos</a>
+              </div>
+            </div> 
+            <a href="#news">Careers</a>
+            <a href="./contact_us.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+               <img src="../assets/Images/logo.png" style="width:200px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./solutions/DigitalTransformation.html">Digital Transformation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Operations.html">Operations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Performance.html">Performance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Engineering.html">Engineering</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Engineering/CinDraw.html">CinDraw</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./services/FeedEngineering.html">Feed Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Detailed&Design.html">Detailed & Design Engg</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/AsBuiltEngineering.html">As-Built Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Coversion.html">Conversion</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Industries
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./industries/Oil&Gas.html">Oil & Gas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Chemical.html">Chemical</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Cement.html">Cement</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Energy&Utility.html">Energy and Utility</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Manufacturing.html">Manufacturing</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <section style="background-image: url('./assets/Images/e1.jpg');background-repeat: no-repeat; background-size:cover;height: 80vh;"></section>
+    <section>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="img-margin"><img src="./assets/Images/e5.jfif" class="rounded float-left"></div>
+                </div>
+                <div class="col-md-6 m-auto"> <!--data-aos="fade-right">-->
+                    <div class="p-5">
+                        <h3 class="text-dark">ENERGY AND UTILITY</h3>
+                        <div class="card-text" >
+                        <div style="color: #363d42;">
+                            Utility companies continue to focus more on customer engagements, ever-changing regulations and integration of renewable energy. 
+                            There is also an effort to optimize the energy mix, deployment of smart technology, intelligent investment for operational efficiency. 
+                            A need to align to greater competition and regulatory directives becomes imperative as cost of materials and labor go up. 
+                            Utilities are, thus, taking a fresh look at technology as a tool to gain competitive advantage.
+                        </div><br>
+                        <br>
+                        <a href="./contact_us.html"><button type="button" class="btn btn-primary">LET'S TALK</button></a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section style="background-color: rgb(34, 123, 139);">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 m-auto"> <!--data-aos="fade-right" data-aos-duration="3000">  -->
+                    <div class="card-text p-5" style="color:#fff">
+                        We, at Ceone, help you integrate data from smart meters, sensors, process instruments, and geotechnical systems. 
+                        Our analytics platform offers insight to monetize data and manage events / assets from remote locations. 
+                        Sophisticated digital tools predict maintenance requirements and interpret patterns to pinpoint pipeline leakage / theft / vulnerabilities. 
+                        We also build mobile applications to boost workforce productivity. 
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 p-5">   
+                    <video controls autoplay style="width:100%;height:50vh">
+                        <source src="https://www.youtube.com/embed/gig9-jO7YL4" type="video/mp4">
+                    </video>
+                </div>     -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">  
+                    <video controls autoplay style="width:100%;height:50vh">
+                        <source src="https://www.youtube.com/embed/gig9-jO7YL4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section class="mt-5" style="background-color: rgb(34, 123, 139);color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto"> <!--data-aos="fade-right" data-aos-duration="3000">-->
+                    <div  class="p-5">
+                        <h1><b>WHO CAN BENEFIT FROM OUR SERVICES</b></h1>
+                        <div>
+                            We provide our solutions and services and technological utility solutions across these sectors:
+                        </div>
+                        <li class="text-left">Water Utility Services</li>
+                        <li class="text-left">Electric Utility Services</li>
+                        <li class="text-left">Waste and Recycling Services</li>
+                        <li class="text-left">Optimizing SAP for Utilities</li>
+                        <li class="text-left">Integration of geospatial systems</li>
+                        <li class="text-left">Internet of Things (IoT) devices</li>
+                        <li class="text-left">Reliability and security</li>
+                    </div>
+                </div>
+                <div class="col-md-6 m-auto p-5">
+                    <img src="./assets/Images/image_processing20200804-17851-b7stl5.gif" class="img-fluid">  
+                </div>
+            </div>
+        </div>
+  </section>
+  <section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="../assets/Images/e3.jpg" class="img-fluid">  
+            </div>
+            <div class="col-md-6 m-auto"><!--data-aos="fade-left" data-aos-duration="3000">-->
+                <div  class="p-5">
+                    <h1 style="color: rgb(10, 36, 53);"><b>WE CAN HELP IN PROVIDING</b></h1>
+                    <div>
+                        As one of the utility industry's leading IT consulting and service providers, we have expertise across the entire value chain. 
+                        With our solutions experience and focus on new technologies such as the cloud, big data analytics and mobility, we can transform your business. 
+                        Rely on us for help across multiple business areas, including
+                    </div>
+                    <li class="text-left">Regulatory compliance alignment</li>
+                    <li class="text-left">Operational performance</li>
+                    <li class="text-left">Energy management</li>
+                    <li class="text-left"> Mobility</li>
+                    <li class="text-left">Enterprise Asset management</li>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+<footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="../assets/Images/logo (2).png" style="width:150px;"  >
+            </div>
+            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about_us.html">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="../contact_us.html">Contact US</a></li>
+                    </ul>
+                </nav>
+                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="./assets/Images/logo (2).png" style="width:150px;"  >
+            </div>
+            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about_us.html">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="./career.html">Careers</a></li>
+                        <li><a href="./contact_us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- </div> -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/home.js"></script>
+    <script src="./assets/js/navbarjs1.0.js"></script>
+    <script src="./assets/js/navbajs2.0.js"></script>
+    <script src="./assets/js/navbarjs3.0.js"></script> -->
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    </body>
+    </html>

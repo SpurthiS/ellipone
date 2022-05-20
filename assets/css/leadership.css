@@ -1,0 +1,47 @@
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+
+  .cards {
+    max-width: 960px;
+    margin: 0 auto 30px;
+  }
+  
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+    /* height: 200px; */
+
+
+
+    /* height: 377px;
+    width: 100%;
+    object-fit: cover; */
+
+
+    width: 80%;
+    margin-left: 5vh;
+    object-fit: cover;
+
+  }

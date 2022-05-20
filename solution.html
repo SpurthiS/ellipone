@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CEONE</title>
+    <meta name="keywords" content="English" />
+    <meta name="template" content="home-page-template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Exo:wght@600&display=swap" rel="stylesheet">
+    <!-- External Css -->
+    <!-- <link rel="stylesheet" href="./assets/css/navbarcss1.0.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/navbarcss2.0.css" type="text/css"> -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- <link rel="stylesheet" href="../assets/css/solution-service.css"> -->
+    <link rel="stylesheet" href="./assets/css/solution.css">
+
+</head>
+<body>
+    <header style="width:100%;position:fixed;z-index: 999;">
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html">Home</a>
+            <!-- <a href="./about_us.html" class="active">About Us</a> -->
+            <div class="dropdowndata">
+                <button class="dropbtn">About Us 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./about_us.html">About Ceone</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="./leadership_teams.html">Leadership Team</a>
+                  </div>
+            </div>
+            <div class="dropdowndata">
+              <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">White Papers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Brouchers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Case Studies</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Videos</a>
+              </div>
+            </div> 
+            <a href="./career.html">Careers</a>
+            <a href="./contact_us.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+               <img src="./assets/Images/logo.png" style="width:200px;">
+               <img src="./assets/Images/iso-image.png" style="width: 88px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./solution.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                    <a class="dropdown-item" href="../solutions/Engineering/CinDraw.html">CinDraw</a>
+                    <div class="dropdown-divider"></div>  
+                    <a class="dropdown-item" href="./solutions/DigitalTransformation.html">Digital Transformation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Operations.html">Operations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Performance.html">Performance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Engineering.html">Engineering</a>                    
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./services/FeedEngineering.html">Feed Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Detailed&Design.html">Detailed & Design Engg</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/AsBuiltEngineering.html">As-Built Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Coversion.html">Conversion</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./industries.html" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                        Industries
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./industries/Oil&Gas.html">Oil & Gas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Chemical.html">Chemical</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Cement.html">Cement</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Energy&Utility.html">Energy and Utility</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Manufacturing.html">Manufacturing</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+          <!-- <section> -->
+            <!-- <div style="background-image: url('./assets/Images/servicebk.jpeg');background-repeat: no-repeat;background-size:cover;height: 70vh;">
+       
+                    <div>
+                    <div class="Solutiontext5 text-light"style="font-family: sans-serif;"><p>Innovative and Best-in-Class solutions <br>to all your engineering needs</p></div>
+                    </div>
+        
+            </div> -->
+
+
+            <div style="background-image: url('./assets/Images/servicebk.jpeg');background-repeat: no-repeat;background-size:cover;height: 80vh;">
+                <div class="Solutiontext6 text-light" style="font-family: sans-serif;"><p>Innovative and Best-in-Class solutions <br>to all your engineering needs</p></div>
+            </div>
+        
+              
+            <section>
+                <div class="middlenavbar" style="font-family: sans-serif;" >
+                    <a class="active" href="./solutions/Engineering/CinDraw.html">CinDraw</a>
+                    <a href="./solutions/DigitalTransformation.html">Digital transformation</a>
+                    <a href="./solutions/Operations.html">Operations</a>
+                    <a href="./solutions/Performance.html">Performance</a>
+                    <a href="./solutions/Engineering.html">Engineering</a>
+                </div>
+             </section>
+
+             <br>
+
+             <section class="mt-5" style="background-color: rgb(169, 192, 235);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 p-5">
+                           <h1 style="text-align: center;font-family: sans-serif;"><b>Ceone Solutions for your Engineering Needs</b></h1>
+                           <div class="content" style="font-family: sans-serif;font-weight: lighter;">Our solutions across the value chain of Engineering needs strive to improve the operational efficiency and reduce the forever increasing costs. Our solutions intend to reduce the delivery cycle time with accuracy. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+
+
+            <section class="mt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 m-auto"><!--<data-aos="fade-up-right" data-aos-duration="3000">-->
+                            <div class="img-margin text-center">
+                                <img src="./assets/Images/CinDraw Logo.png" alt="process" width="50%" height="50%">
+                                <p style="color: rgb(8, 8, 9);font-family: sans-serif;font-weight: lighter;">Stepping Stone to your <br>digital future</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-auto"> <!--<data-aos="fade-up-left" data-aos-duration="3000">-->
+                            <div class="img-margin text-left">
+                                <p style="color: rgb(8, 8, 9);font-family: sans-serif;font-weight: lighter;">
+                                    AI based automation solution to convert legacy engineering documents into intelligent 3D models. 
+                                </p>
+                                <!--<button class="btn" style="background-color: rgb(45, 45, 119);color: #fff;font-weight: bold;box-shadow:5px 10px rgb(94, 94, 126);">Watch Video</button>-->
+                                <!--<button class="btn" style="background-color: #fafafa;color: rgb(60, 60, 148);font-weight: bold;box-shadow:5px 10px rgb(120, 120, 146);">Read More</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+
+            <section style="font-family: sans-serif;background-color: rgb(169, 192, 235);">
+                <section class="mt-5" style="font-family: sans-serif;background-color: rgb(169, 192, 235);">
+                    <div class="container" style="font-family: sans-serif;" >
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="./solutions/DigitalTransformation.html">
+                                <div class="img-margin">  <!--data-aos="fade-down-right" data-aos-duration="3000">-->
+                                   <!---<img src="../assets/Images/AdorableImportantCaecilian-max-1mb.gif" class="img-fluid m-auto">--> 
+                                    <div class="card p-5">
+                                        <div class="card-text">
+                                            <h4>Digital Transformation</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 m-auto"> <!--data-aos="fade-down-left" data-aos-duration="3000">-->
+                                <a href="./solutions/Operations.html">
+                                    <div class="img-margin">
+                                        <div class="card p-5">
+                                            <div class="card-text">
+                                                <h4>Operations</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mt-5" style="font-family: sans-serif;background-color: rgb(169, 192, 235);">
+                            <div class="container" >
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="./solutions/Performance.html">
+                                        <div class="img-margin" > <!--data-aos="fade-up-right" data-aos-duration="3000">-->
+                                            <!--<img src="../assets/Images/businessman-hand-shows-sign-top-600w-1980180608.webp" class="img-fluid m-auto">-->
+                                            <div class="card p-5">
+                                                <div class="card-text">
+                                                    <h4>Performance</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                            <div class="col-md-6 m-auto"> <!--data-aos="fade-down-left" data-aos-duration="3000">-->
+                                <a href="./solutions/Engineering.html">
+                                    <div class="img-margin">
+                                        <div class="card p-5">
+                                            <div class="card-text">
+                                                 <h4>Engineering</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </section>
+                <br>
+                
+
+                  <footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 m-auto">
+                                <img src="./assets/Images/logo (2).png" style="width:150px;"  >
+                            </div>
+                            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                                <nav class="nav-footer">
+                                    <ul>
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./about_us.html">About Us</a></li>
+                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="./career.html">Careers</a></li>
+                                        <li><a href="./contact_us.html">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+                  <!-- Popper JS -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                  <!-- Latest compiled JavaScript -->
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                  <script>
+                      AOS.init();
+                  </script>
+                  <script>
+                      function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                          x.className += " responsive";
+                        } else {
+                          x.className = "topnav";
+                        }
+                      }
+                  </script>
+
+</body>
+</html>

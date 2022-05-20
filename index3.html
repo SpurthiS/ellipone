@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <title>CEONE</title>
+        <meta name="keywords" content="English" />
+        <meta name="template" content="home-page-template" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Exo:wght@600&display=swap" rel="stylesheet">
+        <!-- External Css -->
+
+
+
+        <script src="material/js/ripples.min.js"></script>
+        <script src="material/js/material.min.js"></script>
+
+        <!-- <link rel="stylesheet" href="../../assets/css/solution.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/solution-home.css"> -->
+        <link rel="stylesheet" href="./assets/css/solution-home.css">
+        <link rel="stylesheet" href="./assets/css/home.css">
+        <!-- <link rel="stylesheet" href="../assets/css/solution-service.css"> -->
+
+        <link rel="stylesheet" href="../../assets/vendor/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/fontawesome-free-5.15.4-web/css/solid.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="../../assets/vendor/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+        <script src="../../assets/vendor/fontawesome-free-5.15.4-web/js/solid.js"></script>
+    </head>
+</head>
+<body>
+    <header style="width:100%;position:fixed;z-index: 999;">
+
+
+
+
+        <div class="topnav" id="myTopnav">
+            
+            <a href="./index.html">Home</a>
+            <!-- <a href="./about_us.html" class="active">About Us</a> -->
+            <div class="dropdowndata">
+                <button class="dropbtn">About Us 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="../about_us.html">About Ceone</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="../leadership_teams.html">Leadership Team</a>
+                  </div>
+            </div>
+            <div class="dropdowndata">
+              <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">White Papers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Brouchers</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Case Studies</a>
+                <div class="dropdown-divider"></div>
+                <a href="#">Videos</a>
+              </div>
+            </div> 
+            <a href="#news">Careers</a>
+            <a href="./contact_us.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> 
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+               <img src="./assets/Images/logo.png" style="width:200px;">
+               <img src="./assets/Images/iso-image.png" style="width: 88px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./solution.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./solutions/Engineering/CinDraw.html">CinDraw</a>
+                    <div class="dropdown-divider"></div>
+                    <!-- <a class="dropdown-item" href="./solutions/Operations.html"><p>Operations</p></a> -->
+                    <a class="dropdown-item" href="./solutions/Operations.html">Operations</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Performance.html">Performance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/Engineering.html">Engineering</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./solutions/DigitalTransformation.html">Digital Transformation</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./services/FeedEngineering.html">Feed Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Detailed&Design.html">Detailed & Design Engg</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/AsBuiltEngineering.html">As-Built Engineering</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./services/Coversion.html">Conversion</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Industries
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="./industries/Oil&Gas.html">Oil & Gas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Chemical.html">Chemical</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Cement.html">Cement</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Energy&Utility.html">Energy and Utility</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./industries/Manufacturing.html">Manufacturing</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <div style="background-image: url('./assets/Images/night-view-4686091_960_720.jpg');background-repeat: no-repeat;background-size:cover;height: 100vh;">
+        <div class="Solutiontext6 text-light" style="font-family: sans-serif;"><p>Accelerating Your Business <br>Growth Through Focused <br> Digital Solutions.</p></div>
+    </div>
+<br><br>
+
+    <!-- <br<br>
+    <div style="background-image: url('../../assets/Images/night-view-4686091_960_720.jpg');background-repeat: no-repeat;background-size:cover;height: 100vh;">
+        <div class="Solutiontext5 text-light" style="font-family: sans-serif;"><p>Accelerating Your Business <br>Growth Through Focused <br> Digital Solutions.</p></div>
+    </div> -->
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                        <h2 class="text-center text-dark" style="font-family: sans-serif;"><b>Connecting to the new reality: Digital Future of Engineering</b></h2>
+                        <div class="card-text" style="font-family:sans-serif;"><br>
+                            <div style="font-size: 24px;font-weight: bolder;text-align: center;"> 
+                                At Ceone Infosolutions, we are developing <span>innovative solutions</span>  that will <span>meet the engineering<br> and digital transformation needs</span> of our customers and <span>enable<br>
+                                    productivity gains of 30-40%</span>
+                        </div>
+                    </div>
+                     
+            </div>
+         </div><br><br>
+            
+
+     
+
+
+
+
+
+
+    <section >
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            
+            </ol>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                <img class="d-block w-100 img-height" src="assets/Images/intellicon_img.jpg">
+                <div class="col-md-4 int-clm">
+                   <h4> CinDraw: Steppingstone to your digital future</h4>
+                   <p>AI based automation solution to convert legacy engineering P&ID documents into intelligent 3D models</p> 
+                </div>
+            </div>
+            </div> -->
+
+
+            <div style="height: 75vh;background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,51,121,1) 43%, rgba(8,61,129,1) 46%, rgba(0,212,255,1) 100%);">
+              
+              
+                <div class="Solutiontext7" style="font-family:sans-serif;" >
+                    <p>CinDraw: Steppingstone to your digital future</p>
+                    <p>AI based automation solution to <br>convert legacy engineering P&ID<br> documents into intelligent 3D models</p>
+                </div>
+
+                <!-- <div class="Solutiontext7" style="font-family:sans-serif;" >
+                    <p>CinDraw: Steppingstone to your digital future</p>
+                    <p>AI based automation solution to <br>convert legacy engineering P&ID<br> documents into intelligent 3D models</p>
+                </div> -->
+             
+
+            
+                    
+                            <!-- <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="Solutiontext7" style="font-family:sans-serif;" >
+                                            <p>CinDraw: Steppingstone to your digital future</p>
+                                            <p>AI based automation solution to convert legacy engineering P&ID documents into intelligent 3D models</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                
+                                        <div class="Solutiontext7" style="font-family:sans-serif;" >
+                                            <p>CinDraw: Steppingstone to your digital future</p>
+                                            <p>AI based automation solution to convert legacy engineering P&ID<br> documents into intelligent 3D models</p>
+                                        </div>
+                          
+                                    </div>
+                                </div>
+                            </div> -->
+                
+              
+
+
+
+
+            </div>
+
+
+
+    </section>
+    
+    
+    
+    
+    
+    
+    <br><br>
+
+
+
+
+    <section>
+        <h2 style="text-align: center; font-family: sans-serif;">CEONE’s Digital solutions for your engineering needs</h2>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="./solutions/DigitalTransformation/DigitalTwin.html">
+                    <div class="card p-3"style="font-family: sans-serif;">
+                        <img src="./assets/Images/digitwin.png" style="width:100px;height:100px;margin:auto"/><br>
+                        <h4 style="text-transform: uppercase;text-align: center;">DIGITAL TWIN</h4><br>
+                        <div class="card-text p-4 " style="font-family: sans-serif;">
+                            <div>Developing digital twins from a convergence of technologies that enable an immersive and holistic view of infrastructure and operations
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-4"><!--data-aos="fade-up" data-aos-duration="3000">-->
+                    <a href="./solutions/Engineering/CiN.html">
+                        <div class="card p-3"style="font-family: sans-serif;">
+                            <img src="./assets/Images/cin.png" style="width:100px;height:100px;margin:auto"/><br>
+                            <h4 style="text-transform: uppercase;text-align: center;">C-IN</h4><br>
+                            <div class="card-text p-4" style="font-family: sans-serif;">
+                                <div>Unique automated solution C-IN, offers quick and error-free deliverables in Instrumentation Engineering
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-4"><!--data-aos="fade-up-left" data-aos-duration="3000">-->
+                    <a href="./solutions/Engineering/AssetDataManagement.html">
+                    <div class="card p-3"style="font-family: sans-serif;">
+                        <img src="./assets/Images/cadm.png" style="width:100px;height:100px;margin:auto"/><br>
+                        <h4 style="text-transform: uppercase;text-align: center;">C-ADM</h4><br>
+                        <div class="card-text p-4" style="font-family: sans-serif;">
+                            <div>AI/ML based solution with an ability to read, extract and transform Non-TEF data from engineering document
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+
+
+    
+        <div style="background: linear-gradient(to right, #348AC7, #7474BF); ;padding: 4vh;display: flex;color: white;justify-content: space-evenly;font-family: sans-serif;">
+            <!-- <a href="./services.html">
+            <div>
+                <h4>ENGINEERING SERVICES</h4>
+                <p>Our proven track record of reliable and efficient engineering services <br> across the value chain provides a comprehensive coverage across all <br>disciplines.</p>
+            </div>
+        </a>
+            <div>
+                <p class="eng-srv">
+                    FEED ENGINEERING <br>
+                    DETALIED AND DESIGN ENGINEERING <br>
+                    AS BUILT ENGINEERING <br>
+                    CONVERSIONS <br>
+                </p>
+            </div> -->
+
+            <div class="container01">
+                <div class="column01">
+                    <a href="./services.html">
+                    <div style="color: white;">
+                        <h4>ENGINEERING SERVICES</h4>
+                        <p>Our proven track record of reliable and efficient engineering services <br> across the value chain provides a comprehensive coverage across all <br>disciplines.</p>
+                    </div> 
+                </a>
+                </div>
+                <div class="column01">
+                  <div class="button01" >
+                    <div>FEED ENGINEERING</div><br><br>
+                    <div>DETALIED AND DESIGN ENGINEERING</div>
+                  </div>
+                
+                  <div class="button01" >
+                    <div>AS BUILT ENGINEERING</div><br><br>
+                    <div>CONVERSIONS</div>
+                  </div>
+                </div>
+              </div>
+
+      
+        </div>
+    
+
+
+
+    
+
+
+
+
+
+    <br><br>
+
+    <!-- <section  >
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+    
+    <div>
+      
+ 
+    <h2 style="text-align: center;">WHY CHOOSE CEONE</h2>
+       
+        
+    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section> -->
+    <!-- <h2 style="text-align: center;">WHY CHOOSE CEONE</h2> -->
+    <br><br>
+    <h2 style="text-align: center;font-family: sans-serif">Approved Vendors & Strategic partners with:</h2>
+    <br><br>
+    <div style="background-color: rgb(245, 245, 245);">
+        
+
+        <div class="container1">
+            <div class="item1"><img src="./assets/Images/Ico/P1.png" class="img-item" ></div>
+            <div class="item1"><img src="./assets/Images/Ico/P2.png" class="img-item" ></div>
+            <div class="item1"><img src="./assets/Images/Ico/P3.png" class="img-item" ></div>
+            <div class="item1"><img src="./assets/Images/Ico/P4.png" class="img-item"></div>
+            <div class="item1"><img src="./assets/Images/Ico/P5.png" class="img-item"></div>
+            <div class="item1"><img src="./assets/Images/Ico/P6.png" style="width: 224px;"></div>
+        </div>
+        <div class="container1">
+            <div class="item1"><img src="./assets/Images/Ico/P7png.png" class="img-item"/></div>
+            <div class="item1"><img src="./assets/Images/Ico/P8.png" class="img-item"></div>
+            <div class="item1"><img src="./assets/Images/Ico/P9.png" class="img-item"></div>
+            <div class="item1"><img src="./assets/Images/Ico/P10.png" class="img-item"></div>
+     
+        </div>
+    </div>
+    
+ <br><br>
+
+<!-- 
+ <div style="display: flex;">
+     <div class="container">
+        <div class="">
+            <h4 class="" style="text-align: center;">Domains</h4>
+            <ul class="srv-list">
+
+                <li>Process Industry and Strategic Consulting expert</li>
+                <li>Plant3D Model: SP3D, PDS. PDMS, AutoCAD</li>
+                <li>Automation products: Foxboro, Allen Bradley, Honeywell, Maximo, Emerson</li>
+                <li>Protocols: TCP/IP, PCF, Profibus, Fieldbus, Modbus, OPC</li>
+                <li>Disciplines: Piping, Electrical & Instrumentation</li>
+                <li>Technologies: Java/J2EE, MS .NET, C++, C#, SQL, Oracle</li>
+                <li>Emerging Technologies: Big data, Mobility, Cloud</li>
+            </ul>
+        </div>
+     </div>
+     <div class="container">
+        <div class="">
+            <h4 class="" style="text-align: center;">Delivery</h4>
+            <ul class="srv-list">
+
+                <li>Proven delivery capability</li>
+                <li>Multiple security skills under one roof</li>
+                <li>Holistic approach to problem solving</li>
+                <li>Optimized Onsite and offsite team configuration</li>
+                <li>Flexible and customized engagement models</li>
+                <li>Client centric Delivery Model</li>
+                <li>Experienced IT Professionals in leading technologies</li>
+                <li>Proprietary Industry Solutions to address business challenges</li>
+            </ul>
+        </div>
+     </div>
+ </div><br><br> -->
+
+
+ <!-- <div class="container12">
+    <div class="row12">
+        <div class="column">
+            
+            <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;BACKGROUND: CORNFLOWERBLUE;PADDING: 2VH;">Domains: </h4><br>
+                <li>Process Industry and Strategic Consulting expert</li>
+                <li>Plant3D Model: SP3D, PDS. PDMS, AutoCAD</li>
+                <li>Automation products: Foxboro, Allen Bradley, Honeywell, Maximo, Emerson</li>
+                <li>Protocols: TCP/IP, PCF, Profibus, Fieldbus, Modbus, OPC</li>
+                <li>Disciplines: Piping, Electrical & Instrumentation</li>
+                <li>Technologies: Java/J2EE, MS .NET, C++, C#, SQL, Oracle</li>
+                <li>Emerging Technologies: Big data, Mobility, Cloud</li>
+                <br>
+        </div>
+        <div class="column">
+            <h4 style="text-transform: uppercase;text-align: center;font-family: sans-serif;BACKGROUND: CORNFLOWERBLUE;PADDING: 2VH;">Delivery:</h4><br>
+                        <li>Proven delivery capability</li>
+                        <li>Multiple security skills under one roof</li>
+                        <li>Holistic approach to problem solving</li>
+                        <li>Optimized Onsite and offsite team configuration</li>
+                        <li>Flexible and customized engagement models</li>
+                        <li>Client centric Delivery Model</li>
+                        <li>Experienced IT Professionals in leading technologies</li>
+                        <li>Proprietary Industry Solutions to address business challenges</li>
+                        <br>
+        </div>
+
+
+    </div>
+</div> -->
+
+<h2 style="text-align: center; font-family: sans-serif;">WHY CHOOSE CEONE</h2><br>
+<div class="container13">
+    <div class="columns1" style="font-family: sans-serif;">
+        <div class="card14">
+            <h2 style="text-align: center;">Domains:</h2>
+            <ul >
+                <li style="text-align: start;">Process Industry and Strategic Consulting expert</li>
+                <li style="text-align: start;">Plant3D Model: SP3D, PDS. PDMS, AutoCAD</li>
+                <li style="text-align: start;">Automation products: Foxboro, Allen Bradley, Honeywell, Maximo, Emerson</li>
+                <li style="text-align: start;">Protocols: TCP/IP, PCF, Profibus, Fieldbus, Modbus, OPC</li>
+                <li style="text-align: start;">Disciplines: Piping, Electrical & Instrumentation</li>
+                <li style="text-align: start;">Technologies: Java/J2EE, MS .NET, C++, C#, SQL, Oracle</li>
+                <li style="text-align: start;">Emerging Technologies: Big data, Mobility, Cloud</li>
+            </ul>
+        </div>
+    </div>
+    <div style=" margin-top: 151px;">
+
+            <div >
+                <img src="./assets/Images/cross.png" style="width: 65px">
+             </div>
+
+    </div>
+    <div class="columns1">
+        <div class="card14"style="font-family: sans-serif;">
+            <h2 style="text-align: center;">Delivery:</h2>
+            <ul >
+                <li style="text-align: start;">Proven delivery capability</li>
+                <li style="text-align: start;">Multiple security skills under one roof</li>
+                <li style="text-align: start;">Holistic approach to problem solving</li>
+                <li style="text-align: start;">Optimized Onsite and offsite team configuration</li>
+                <li style="text-align: start;">Flexible and customized engagement models</li>
+                <li style="text-align: start;">Client centric Delivery Model</li>
+                <li style="text-align: start;">Experienced IT Professionals in leading technologies</li>
+                <li style="text-align: start;">Proprietary Industry Solutions to address business challenges</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+    <h2 style="text-align: center;font-family: sans-serif;">HOW CAN WE HELP YOUR INDUSTRY?</h2>
+    <br><br>
+    <div class="container" style="display: flex;justify-content: center;flex-wrap: wrap; font-family: sans-serif;">
+        <div class="card">
+           <div class="img">
+              <img src="./assets/Images/oil n gas.jpg">
+           </div>
+           <div class="top-text">
+              <div class="name" style="text-align: center;">
+                OIL & GAS
+              </div>
+           </div>
+        </div>&nbsp;&nbsp;
+        <div class="card">
+           <div class="img">
+            <img src="./assets/Images/chem.jpg">
+           </div>
+           <div class="top-text">
+              <div class="name" style="text-align: center;">
+                CHEMICAL
+              </div>
+
+           </div>
+
+        </div>&nbsp;&nbsp;
+        <div class="card">
+           <div class="img">
+            <img src="./assets/Images/en n utilty.jpg">
+           </div>
+           <div class="top-text">
+              <div class="name" style="text-align: center;">
+                ENERGY & UTILTY
+              </div>
+
+           </div>
+
+        </div>&nbsp;&nbsp;
+
+        <div class="card">
+            <div class="img">
+             <img src="./assets/Images/cement.jpg">
+            </div>
+            <div class="top-text">
+               <div class="name" style="text-align: center;">
+                CEMENT
+               </div>
+            </div>
+         </div>&nbsp;&nbsp;
+         <div class="card">
+            <div class="img">
+             <img src="./assets/Images/Piping & Equipments.jpg">
+            </div>
+            <div class="top-text">
+               <div class="name" style="text-align: center;">
+                MANUFACTURING
+               </div>
+            </div>
+         </div>&nbsp;&nbsp;
+</div><br><br>
+
+
+
+
+
+
+<footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="../assets/Images/logo (2).png" style="width:150px;"  >
+            </div>
+            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about_us.html">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="../contact_us.html">Contact US</a></li>
+                    </ul>
+                </nav>
+                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer style="background-color:  rgb(68, 114, 199);color:#fff;padding-bottom:20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <img src="./assets/Images/logo (2).png" style="width:150px;"  >
+            </div>
+            <div class="col-md-6 m-auto" style="font-family: sans-serif;">
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about_us.html">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="../contact_us.html">Contact US</a></li>
+                    </ul>
+                </nav>
+                <div style="text-align: center; font-size: small ;font-family: sans-serif;">Copyright &copy; 2021 CEONE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+</html>
